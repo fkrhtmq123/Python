@@ -23,3 +23,5 @@ print('set1과 set2의 합집합 : ', set1 | set2)
 
 # 차집합
 print('set1과 set2의 차집합 : ', set1 - set2)
+
+#집합 관련 함수 p100 ~ p101 실습하기
