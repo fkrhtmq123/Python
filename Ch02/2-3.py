@@ -45,3 +45,66 @@ del numbers[1]
 print('numbers : ', numbers)
 
 # 리스트 관련 함수 p80~ P84
+# p80
+a = [1, 2, 3]
+a.append(4)
+print('a :', a)
+
+a.append([5, 6])
+print('a :', a)
+
+a = [1, 4, 3 ,2]
+a.sort()
+print('a :', a)
+
+# p81
+a = ['a', 'b', 'c']
+a.sort()
+print('a :', a)
+
+a = ['a', 'c', 'b']
+a.reverse()
+print('a :', a)
+
+a = [1, 2, 3]
+a.index(3)
+print('a :', a)
+
+a.index(1)
+print('a :', a)
+
+# p82
+#a.index(0)
+#print('a :', a) # 오류가 뜬다. 0의 값이 없므로
+
+a = [1, 2, 3]
+a.insert(0, 4)
+print('a :', a)
+
+a.insert(3, 5)
+print('a :', a)
+
+a = [1, 2, 3, 1, 2, 3]
+a.remove(3)
+print('a :', a)
+
+# p83
+a.remove(3)
+print('a :', a)
+
+a = [1, 2, 3]
+a.pop()
+print('a.pop() :', a.pop())
+print('a :', a)
+
+# p84
+a = [1, 2, 3, 1]
+a.count(1)
+print('a :', a.count(1))
+
+a = [1, 2, 3]
+a.extend([4, 5])
+print('a :', a)
+b = [6, 7]
+a.extend(b)
+print('a :', a)
