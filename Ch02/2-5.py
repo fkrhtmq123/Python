@@ -37,3 +37,34 @@ del dic1[3]
 print('dic1 : ', dic1)
 
 # 딕셔너리 관련 함수 p93~p96
+# p93
+a = {'name': 'pey', 'phone': '01199933323', 'brith': '1118'}
+a.keys()
+print(a.keys())
+
+# p94
+for k in a.keys():
+    print(k)
+
+print(list(a.keys()))
+
+print(a.values())
+
+# p95
+print(a.items())
+
+a = {'name': 'pey', 'phone': '01199933323', 'brith': '1118'}
+a.get('name')
+print(a.get('name'))
+a.get('phone')
+print(a.get('phone'))
+
+# p96
+print(a.get('nokey'))
+
+print(a.get('foo', 'bar'))
+
+a = {'name': 'pey', 'phone': '01199933323', 'brith': '1118'}
+print('name' in a)
+
+print('email' in a)

@@ -25,3 +25,15 @@ print('set1과 set2의 합집합 : ', set1 | set2)
 print('set1과 set2의 차집합 : ', set1 - set2)
 
 #집합 관련 함수 p100 ~ p101 실습하기
+# p100
+s1 = set([1, 2, 3])
+s1.add(4)
+print(s1)
+
+# p101
+s1.update([4, 5, 6])
+print(s1)
+
+s1 = set([1, 2, 3])
+s1.remove(2)
+print(s1)
